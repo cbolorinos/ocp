@@ -271,7 +271,7 @@
 ----------------------------------*/
 
 .ui-widget {
-	font-family: Verdana,Arial,sans-serif/*{ffDefault}*/;
+	font-family: "cabin",Arial,sans-serif/*{ffDefault}*/;
 	font-size: 1.1em/*{fsDefault}*/;
 }
 .ui-widget .ui-widget {
@@ -281,7 +281,7 @@
 .ui-widget select,
 .ui-widget textarea,
 .ui-widget button {
-	font-family: Verdana,Arial,sans-serif/*{ffDefault}*/;
+	font-family: "cabin",Arial,sans-serif/*{ffDefault}*/;
 	font-size: 1em;
 }
 .ui-widget-content {
@@ -665,7 +665,7 @@
 }
 /*some basic settings */
 a {
-  color: #F9CE06;
+  color: #124468;
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
   -webkit-transition-duration: 0.3s;
@@ -676,7 +676,9 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  text-transform: uppercase;
+  font-family: "Droid Serif", "Georgia", serif;
+  color:#313131;
+  font-weight:700px;
   letter-spacing: 1px;
 }
 
@@ -714,6 +716,10 @@ hr {
   background-size: cover;
   background-position: 50% 50%;
 }
+.bluebg {
+	color:white;
+	background: #124468;
+}
 .full.no-padding {
   padding: 0;
 }
@@ -727,7 +733,7 @@ ul.shortcode-list {
   margin: 0 0 20px;
 }
 ul.shortcode-list i {
-  color: #F9CE06;
+  color: #124468;
   margin-right: 3px;
 }
 
@@ -751,8 +757,8 @@ ul.shortcode-list i {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background-color: #f9ce06;
-  border: 3px solid #F9CE06;
+  background-color: #124468;
+  border: 3px solid #124468;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
@@ -762,7 +768,7 @@ ul.shortcode-list i {
   margin: 0;
 }
 .big-social i:hover {
-  border: 3px solid #F9CE06;
+  border: 3px solid #124468;
   background-color: rgba(249, 206, 6, 0);
 }
 
@@ -836,8 +842,8 @@ ul.shortcode-list i {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #fff;
-  background: #F9CE06;
-  border: 2px solid #F9CE06;
+  background: #124468;
+  border: 2px solid #124468;
 }
 
 .button:hover {
@@ -890,8 +896,8 @@ ul.shortcode-list i {
   background: transparent;
 }
 .contain-to-grid.shadowless .top-bar-section li:not(.has-form) a:not(.button):hover, .contain-to-grid.shadowless .top-bar-section li.active:not(.has-form) a:not(.button) {
-  background: #f9f9f9;
-  color: #888;
+  background: #124468;
+  color: white;
 }
 .contain-to-grid.shadowless .top-bar-section li.active:not(.has-form) a:not(.button):hover {
   background: #f2f2f2;
@@ -1080,7 +1086,7 @@ ul.info a {
   margin-right: 5px;
 }
 ul.info i {
-  border: 1px solid #F9CE06;
+  border: 1px solid #124468;
   padding: 5px;
   -moz-transition: all 0.1s linear;
   -o-transition: all 0.1s linear;
@@ -1088,7 +1094,7 @@ ul.info i {
   transition: all 0.1s linear;
 }
 ul.info i:hover {
-  background: #F9CE06;
+  background: #124468;
   color: #fff;
 }
 
@@ -1129,7 +1135,7 @@ form input.error, form textarea.error {
   color: #999;
 }
 .pager a:hover {
-  color: #F9CE06;
+  color: #124468;
 }
 .pager .older {
   float: left;
@@ -1190,9 +1196,12 @@ form input.error, form textarea.error {
 
 /*Footer */
 #footer {
-  background: #222;
-  color: #999;
+  background: #124468;
+  color: white;
 }
+/*.whitebg {
+	background: white;
+}*/
 #footer h1 {
   margin-bottom: 25px;
 }
@@ -1207,10 +1216,10 @@ form input.error, form textarea.error {
   line-height: 1.875rem;
 }
 #footer ul a {
-  color: #999;
+  color: white;
 }
 #footer ul a:hover {
-  color: #eee;
+  color: #5dd6ee;
 }
 #footer ul.socials li {
   display: inline-block;
@@ -1224,7 +1233,7 @@ form input.error, form textarea.error {
   -webkit-border-radius: 20px;
   border-radius: 20px;
   background: #eee;
-  color: #333;
+  color: #124468;
   text-align: center;
   font-size: 1.25rem;
   line-height: 3rem;
@@ -1234,7 +1243,8 @@ form input.error, form textarea.error {
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
-  background: #F9CE06;
+  color: white;
+  background: #5dd6ee;
 }
 #footer input.email-address {
   padding: 5px 15px;
@@ -1272,7 +1282,7 @@ body.screenshot {
 }
 .modBarGraph .bars p.highlighted {
   width: 0;
-  background: #F9CE06;
+  background: #124468;
   height: 12px;
 }
 
@@ -1403,7 +1413,7 @@ body.screenshot {
 }
 
 .slick-prev:before, .slick-next:before {
-  font-family: "DroidSans";
+  font-family: "cabin",Arial,sans-serif/*{ffDefault}*/;
   font-size: 20px;
   line-height: 1;
   color: white;
@@ -1489,7 +1499,7 @@ body.screenshot {
   content: "•";
   width: 20px;
   height: 20px;
-  font-family: "DroidSans";
+  font-family: "cabin",Arial,sans-serif/*{ffDefault}*/;
   font-size: 6px;
   line-height: 20px;
   text-align: center;
@@ -1514,7 +1524,7 @@ body.screenshot {
   color: #333;
 }
 .modBlogPost h4 a:hover {
-  color: #f9ce06;
+  color: #124468;
 }
 .modBlogPost .date {
   font-size: 0.78571rem;
@@ -1569,7 +1579,7 @@ body.screenshot {
   color: #333;
 }
 .modBlogPost.big h3 a:hover {
-  color: #f9ce06;
+  color: #124468;
 }
 .modBlogPost.big h4 {
   font-size: 1.7rem;
@@ -1733,7 +1743,7 @@ body.screenshot {
 }
 
 .slick-prev:before, .slick-next:before {
-  font-family: "DroidSans";
+  font-family: "cabin",Arial,sans-serif/*{ffDefault}*/;
   font-size: 20px;
   line-height: 1;
   color: white;
@@ -1819,7 +1829,7 @@ body.screenshot {
   content: "•";
   width: 20px;
   height: 20px;
-  font-family: "DroidSans";
+  font-family: "cabin",Arial,sans-serif/*{ffDefault}*/;
   font-size: 6px;
   line-height: 20px;
   text-align: center;
@@ -1847,9 +1857,9 @@ body.screenshot {
 }
 .modBoxedSlider .caption p {
   display: inline-block;
-  background: #F9CE06;
+  background: #124468;
   color: #fff;
-  font-family: "droid serif";
+  font-family: "cabin",Arial,sans-serif/*{ffDefault}*/;
   margin-bottom: 0;
   padding: 10px 20px;
   font-style: italic;
@@ -1872,7 +1882,7 @@ body.screenshot {
   margin-bottom: 40px;
 }
 .modBoxedTextSlider .box i {
-  color: #F9CE06;
+  color: #124468;
   font-size: 36px;
   width: 48px;
   height: 48px;
@@ -2013,7 +2023,7 @@ body.screenshot {
 }
 
 .slick-prev:before, .slick-next:before {
-  font-family: "DroidSans";
+  font-family: "cabin",Arial,sans-serif/*{ffDefault}*/;
   font-size: 20px;
   line-height: 1;
   color: white;
@@ -2099,7 +2109,7 @@ body.screenshot {
   content: "•";
   width: 20px;
   height: 20px;
-  font-family: "DroidSans";
+  font-family: "cabin",Arial,sans-serif/*{ffDefault}*/;
   font-size: 6px;
   line-height: 20px;
   text-align: center;
@@ -2598,7 +2608,6 @@ body.screenshot {
   font-size: 5.14286rem;
   line-height: 5.14286rem;
   display: inline-block;
-  color: #fff;
   letter-spacing: 2px;
   font-weight: bold;
   margin-bottom: 40px;
@@ -2607,7 +2616,6 @@ body.screenshot {
 .modDefaultSlider .sequence .small-title h2 {
   font-size: 1.28571rem;
   font-weight: normal;
-  color: #fff;
   letter-spacing: 2px;
   margin-bottom: 5px;
 }
@@ -2991,10 +2999,10 @@ body.screenshot {
   color: #999;
 }
 .modGallery .gallery-nav li.current {
-  border: 1px solid #F9CE06;
+  border: 1px solid #124468;
 }
 .modGallery .gallery-nav li.current a {
-  color: #F9CE06;
+  color: #124468;
 }
 .modGallery ul.gallery img {
   width: 100%;
@@ -3078,14 +3086,14 @@ body.screenshot {
   font-size: 3.42857rem;
   width: 3.42857rem;
   height: 3.42857rem;
-  color: #333;
-  border: 3px solid #eee;
+  color: white;
+  border: none;
+  background-color: #124468;
   display: inline-block;
   padding: 30px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background: none;
   -moz-transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
   -webkit-transition: color 0.2s linear;
@@ -3095,12 +3103,13 @@ body.screenshot {
   margin: 0;
 }
 .modIconText .icon-text-circle:hover i {
-  color: #F9CE06;
+  background-color:#5dd6ee;
+  color: #124468;
 }
 .modIconText .icon-text-simple i {
   font-size: 3.42857rem;
   float: left;
-  color: #e0e0e0;
+  color: #124468;
   width: 48px;
   height: 48px;
   text-align: center;
@@ -3128,10 +3137,10 @@ body {
   color: #999;
 }
 .modMasonryGallery .gallery-nav li.current {
-  border: 1px solid #F9CE06;
+  border: 1px solid #124468;
 }
 .modMasonryGallery .gallery-nav li.current a {
-  color: #F9CE06;
+  color: #124468;
 }
 .modMasonryGallery ul.gallery {
   margin: 0;
@@ -3217,8 +3226,8 @@ body {
 }
 .modMilestone i {
   font-size: 36px;
-  color: #333;
-  background: #F9CE06;
+  color: white;
+  background: #124468;
   width: 90px;
   height: 90px;
   -moz-border-radius: 45px;
@@ -3309,7 +3318,7 @@ body {
 }
 
 .modPriceBox.featured .info {
-  border-top: 4px solid #F9CE06;
+  border-top: 4px solid #124468;
 }
 
 .modPriceBox:hover {
@@ -3324,7 +3333,7 @@ body {
   width: 66%;
   margin: 0 auto;
   height: 2px;
-  background: #F9CE06;
+  background: #124468;
   display: block;
 }
 
@@ -3424,7 +3433,7 @@ body {
   border: 1px solid #999;
 }
 .modStylePanel a#yellow {
-  background: #F9CE06;
+  background: #124468;
 }
 .modStylePanel a#red {
   background: #e92b05;
@@ -3512,7 +3521,7 @@ body {
   -moz-border-radius: 18px;
   -webkit-border-radius: 18px;
   border-radius: 18px;
-  background: #F9CE06;
+  background: #124468;
   color: #fff;
   text-align: center;
   font-size: 1.125rem;
@@ -3696,7 +3705,7 @@ body {
 }
 
 .slick-prev:before, .slick-next:before {
-  font-family: "DroidSans";
+  font-family: "cabin",Arial,sans-serif/*{ffDefault}*/;
   font-size: 20px;
   line-height: 1;
   color: white;
@@ -3782,7 +3791,7 @@ body {
   content: "•";
   width: 20px;
   height: 20px;
-  font-family: "DroidSans";
+  font-family: "cabin",Arial,sans-serif/*{ffDefault}*/;
   font-size: 6px;
   line-height: 20px;
   text-align: center;
