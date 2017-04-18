@@ -44,7 +44,7 @@ meta.foundation-mq-xlarge-only {
 
 meta.foundation-mq-xxlarge {
   font-family: "/only screen and (min-width:120.063em)/";
-  width: 120.063em;
+  width: 100.063em;
 }
 
 meta.foundation-data-attribute-namespace {
@@ -69,8 +69,8 @@ body {
 }
 
 body {
-  background: #fff;
-  color: #999;
+  background: #f0f0f0;
+  color: black;
   padding: 0;
   margin: 0;
   font-family: Raleway, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -5665,7 +5665,7 @@ meta.foundation-mq-topbar {
   color: #124468;
   padding: 12px 0 12px 0;
   padding-left: 1.42857rem;
-  font-family: "cabin",Arial,sans-serif/*{ffDefault}*/;
+  font-family: "Open Sans",Arial,sans-serif/*{ffDefault}*/;
   font-size: 1rem;
   font-weight: normal;
   text-transform: uppercase;
